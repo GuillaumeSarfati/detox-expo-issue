@@ -15,28 +15,16 @@ target 'detox-expo-issue' do
     :path => "../node_modules/expo-sms/ios"
   pod 'EXCore',
     :path => "../node_modules/expo-core/ios"
-  pod 'EXFont',
-    :path => "../node_modules/expo-font/ios"
-  pod 'EXPrint',
-    :path => "../node_modules/expo-print/ios"
   pod 'EXCamera',
     :path => "../node_modules/expo-camera/ios"
   pod 'EXSensors',
     :path => "../node_modules/expo-sensors/ios"
-  pod 'EXLocation',
-    :path => "../node_modules/expo-location/ios"
   pod 'EXConstants',
     :path => "../node_modules/expo-constants/ios"
   pod 'EXFileSystem',
     :path => "../node_modules/expo-file-system/ios"
   pod 'EXPermissions',
     :path => "../node_modules/expo-permissions/ios"
-  pod 'EXSegment',
-    :path => "../node_modules/expo-analytics-segment/ios"
-  pod 'EXMediaLibrary',
-    :path => "../node_modules/expo-media-library/ios"
-  pod 'EXFontInterface',
-    :path => "../node_modules/expo-font-interface/ios"
   pod 'EXCameraInterface',
     :path => "../node_modules/expo-camera-interface/ios"
   pod 'EXSensorsInterface',
@@ -49,14 +37,8 @@ target 'detox-expo-issue' do
     :path => "../node_modules/expo-file-system-interface/ios"
   pod 'EXPermissionsInterface',
     :path => "../node_modules/expo-permissions-interface/ios"
-  pod 'EXImageLoaderInterface',
-    :path => "../node_modules/expo-image-loader-interface/ios"
   pod 'EXFaceDetectorInterface',
     :path => "../node_modules/expo-face-detector-interface/ios"
-  pod 'EXBarCodeScannerInterface',
-    :path => "../node_modules/expo-barcode-scanner-interface/ios"
-  pod 'EXBarCodeScanner',
-    :path => "../node_modules/expo-barcode-scanner/ios"
   pod 'EXGL-CPP',
     :path => "../node_modules/expo-gl-cpp/cpp"
 
@@ -102,7 +84,7 @@ target 'detox-expo-issue' do
       target.native_target.build_configurations.each do |config|
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'EX_DETACHED=1'
-        
+
         # needed for GoogleMaps 2.x
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= []
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '${PODS_ROOT}/GoogleMaps/Base/Frameworks'
