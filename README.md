@@ -9,6 +9,7 @@ i found many issue :
 - https://github.com/wix/detox/issues/795
 - https://github.com/wix/detox/issues/893
 - https://github.com/wix/detox/issues/670
+- https://stackoverflow.com/search?q=detox+element+is+not+defined
 
 DETOX_INIT_ERROR isn't throw
 
