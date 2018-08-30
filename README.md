@@ -10,6 +10,7 @@ i found many issue :
 - https://github.com/wix/detox/issues/893
 - https://github.com/wix/detox/issues/670
 
+DETOX_INIT_ERROR isn't throw
 
 ### MY CONFIGURATION
 
