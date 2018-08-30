@@ -15,15 +15,16 @@ DETOX_INIT_ERROR isn't throw
 
 ### MY CONFIGURATION
 
-| Program       | Version  |
-| ------------- | -------- |
-| Node          | v8.11.3  |
-| React         | v16.3.1  |
-| React Native  | v0.53.0  |
-| Expo          | v29.0.0  |
-| ExpoKit       | v2.7.0   |
-| Detox         | v8.2.3   |
-| Xcode         | v9.4.1   |
+| Program       | Version    |
+| ------------- | ---------- |
+| Node          | v8.11.3    |
+| React         | v16.3.1    |
+| React Native  | v0.53.0    |
+| Expo          | v29.0.0    |
+| ExpoKit       | v2.7.0     |
+| Detox         | v8.2.3     |
+| Xcode         | v9.4.1     |
+| MacOS         | v10.13.6   |
 
 ### SETUP
 
